@@ -5,6 +5,9 @@ using UnityEngine.SceneManagement;
 
 public class loadGame : MonoBehaviour
 {
- public void ClickStart() {
-    SceneManager.LoadScene("mainScene");
-}}
+    // Start is called before the first frame update
+    public void loadTerrain()
+    {
+        SceneManager.LoadScene("MainScene");
+    }
+}
